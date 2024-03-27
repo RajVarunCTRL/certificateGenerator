@@ -24,9 +24,6 @@ def create_certificate(name,pin,evname):
     if evname == 1:
         ev_name='snl'
         img = Image.open('resources/certificates/snl.png')
-    elif evname == 2:
-        ev_name='jc'
-        img = Image.open('resources/certificates/jc.png')
     draw = ImageDraw.Draw(img)
     image_width, image_height = img.size
 
